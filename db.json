@@ -1,0 +1,29 @@
+{
+  "Quotes": [
+    {
+      "Quote": "The place to improve the world is first in one's own heart and head and hands.",
+      "Author": "Robert M. Pirsig",
+      "id": 1
+    },
+    {
+      "Quote": "Do something wonderful, people may imitate it.",
+      "Author": "Albert Schweitzer",
+      "id": 2
+    },
+    {
+      "Quote": "In the depth of winter, I finally learned that there was within me an invincible summer.",
+      "Author": "Albert Camus",
+      "id": 3
+    },
+    {
+      "Quote": "One secret of success in life is for a man to be ready for his opportunity when it comes.",
+      "Author": "Benjamin Disraeli",
+      "id": 4
+    },
+    {
+      "Quote": "Yesterday is history. Tomorrow is a mystery. And today? Today is a gift. That is why we call it the present.",
+      "Author": "Babatunde Olatunji",
+      "id": 5
+    }
+  ]
+}

@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     quoteGenerator();
     const genButton = document.getElementById('qGenerator');
     genButton.addEventListener('click', quoteGenerator);
-
+    const saveButton = document.getElementById('qSaver');
+    saveButton.addEventListener('click', quoteSaver)
 })
 
 
@@ -18,4 +19,21 @@ function quoteGenerator(){
         author.textContent = quotesArray[randomInt].author
 
     })
+}
+
+function quoteSaver(){
+    let quoteValue = document.getElementById('quote').textContent;
+    let quoteAuthor = document.getElementById('qAuthor').textContent;
+    fetch('http://localhost:3000/Quotes', {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json", 
+            "Accept": "application/json",
+        },
+        body: JSON.stringify({
+            Quote: quoteValue,
+            Author: quoteAuthor 
+        })
+    })
+
 }
