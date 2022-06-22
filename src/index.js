@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-    quoteGenerator()
+    quoteGenerator();
+    const genButton = document.getElementById('qGenerator');
+    genButton.addEventListener('click', quoteGenerator);
 
 })
 
