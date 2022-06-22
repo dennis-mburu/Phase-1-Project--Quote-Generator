@@ -8,7 +8,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 4px solid #000000;
+    border: 4px solid #da4343;
     padding: 10px; 
     background-color: cyan;     
 }
@@ -16,7 +16,7 @@ body {
 #buttonsContainer > button {
     cursor: pointer;
     background-color: rgb(87, 165, 42);
-    font-size: 16px;
+    font-size: 26px;
     letter-spacing: 2px;
     color: #fff;
     padding: 23px 50px;
@@ -37,7 +37,7 @@ body {
 
 #quoteContainer {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
     color: blueviolet;
     font-style: normal;
@@ -47,7 +47,7 @@ body {
     text-align:center;
     color: #be1bc4;
     background-color: #000000;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     margin-top: 0px;
     margin-bottom: 1px;

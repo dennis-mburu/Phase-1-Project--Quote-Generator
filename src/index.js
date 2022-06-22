@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
     genButton.addEventListener('click', quoteGenerator);
     const saveButton = document.getElementById('qSaver');
     saveButton.addEventListener('click', quoteSaver)
+    let btns = document.querySelectorAll('buttonsContainer > button');
+    btns.addEventListener('mouseover', hoverStyler)
 })
 
 
