@@ -9,6 +9,36 @@
       "Quote": "Tension is who you think you should be. Relaxation is who you are.",
       "Author": "Chinese proverb",
       "id": 2
+    },
+    {
+      "Quote": "Life isn't about finding yourself. Life is about creating yourself.",
+      "Author": "Bernard Shaw",
+      "id": 3
+    },
+    {
+      "Quote": "Nobody made a greater mistake than he who did nothing because he could do only a little.",
+      "Author": "Edmund Burke",
+      "id": 4
+    },
+    {
+      "Quote": "Try not to become a man of success, but rather try to become a man of value.",
+      "Author": "Albert Einstein",
+      "id": 5
+    },
+    {
+      "Quote": "We could never learn to be brave and patient if there were only joy in the world.",
+      "Author": "Helen Keller",
+      "id": 6
+    },
+    {
+      "Quote": "Great indeed is the sublimity of the Creative, to which all beings owe their beginning and which permeates all heaven.",
+      "Author": "Lao Tzu",
+      "id": 7
+    },
+    {
+      "Quote": "Any of us can achieve virtue, if by virtue we merely mean the avoidance of the vices that do not attract us.",
+      "Author": "Robert Lynd",
+      "id": 8
     }
   ]
 }

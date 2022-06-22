@@ -1,4 +1,47 @@
+body {
+    background-color: cyan;
+    background-image: url(../assets/2.png);    
+}
+
+#mainContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #000000;
+    padding: 10px; 
+    background-color: cyan;     
+}
+
 #buttonsContainer > button {
     cursor: pointer;
-    background-color: brown;
+    background-color: rgb(87, 165, 42);
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
 }
+
+#buttonsContainer > button:hover {
+    transform: scale(1.04, 1);
+    background-color: rgb(216, 10, 27);
+    text-decoration: none;
+}
+
+h1{
+    text-align:center;
+    color: #be1bc4;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    
+}
+
+
