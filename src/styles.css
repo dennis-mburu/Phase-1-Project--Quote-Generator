@@ -1,0 +1,4 @@
+#buttonsContainer > button {
+    cursor: pointer;
+    background-color: brown;
+}
