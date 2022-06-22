@@ -37,10 +37,14 @@ function quoteSaver(){
     })
     .then(resp => {
         resp.json();
-        alert("Quote Successfuly Saved to Local Database. Click ok to generate a new Quote")
-    })
+        alert("Quote Successfuly Saved to Local Database. Click ok to generate a new Quote");
+     })
     .catch(err => {
-        alert(`${err}! Check  Local Database Server Connection and Try Again`)
+        let errorCont = document.getElementById('modal');
+        let messageCont = document.querySelector('#modal h2');
+        errorCont.className = "";
+        messageCont.textContent = `${err}! Check  Local Database Server Connection and Try Again.`
+        setTimeout(() => (errorCont.className = "hidden"), 5000)
     })
 
 }
