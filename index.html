@@ -9,13 +9,17 @@
     <link rel="stylesheet" href="./src/styles.css">
 </head>
 <body>
+    <div id="modal" class ="hidden">
+        <h2>Error!</h2>
+        <p id="modal-message"></p>
+    </div>
     <div class='container' id="mainContainer">
         <div id="headerContainer">
             <h1>An Inspirational Quote Generator To  Start Your Day Right</h1>
         </div>
         <div id="quoteContainer">
             <p id="quote"></p>
-            <p id ="qAuthor"></p>
+            <p id ="qAuthor" style="font-style:italic; color:rgb(230, 169, 40)"></p>
         </div>
         <div id="buttonsContainer">
             <button id="qGenerator">Generate New Quote</button>

@@ -1,6 +1,6 @@
 body {
     background-color: cyan;
-    background-image: url(../assets/2.png);    
+    background-image: url(../assets/rainbow.gif);    
 }
 
 #mainContainer {
@@ -8,7 +8,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid #000000;
+    border: 4px solid #000000;
     padding: 10px; 
     background-color: cyan;     
 }
@@ -34,14 +34,43 @@ body {
     text-decoration: none;
 }
 
-h1{
-    text-align:center;
-    color: #be1bc4;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    margin-top: 0px;
-    margin-bottom: 1px;
-    
+
+#quoteContainer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: blueviolet;
+    font-style: normal;
 }
 
+#headerContainer{
+    text-align:center;
+    color: #be1bc4;
+    background-color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
 
+#modal {
+    border-radius: 10px;
+    background-color: maroon;
+    color: white;
+  
+    margin: 1em;
+    padding: 1em;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  
+#modal p {
+    margin-bottom: 0;
+}
+
+.hidden {
+    visibility: hidden;
+}
