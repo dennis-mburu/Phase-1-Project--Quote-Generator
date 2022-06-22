@@ -35,5 +35,12 @@ function quoteSaver(){
             Author: quoteAuthor 
         })
     })
+    .then(resp => {
+        resp.json();
+        alert("Quote Successfuly Saved to Local Database. Click ok to generate a new Quote")
+    })
+    .catch(err => {
+        alert(`${err}! Check  Local Database Server Connection and Try Again`)
+    })
 
 }
