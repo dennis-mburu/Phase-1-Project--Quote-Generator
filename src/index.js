@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     genButton.addEventListener('click', quoteGenerator);
     const saveButton = document.getElementById('qSaver');
     saveButton.addEventListener('click', quoteSaver)
-    let btns = document.querySelectorAll('buttonsContainer > button');
-    btns.addEventListener('mouseover', hoverStyler)
+
 })
 
 
@@ -20,6 +19,13 @@ function quoteGenerator(){
         quote.textContent = quotesArray[randomInt].text;
         author.textContent = quotesArray[randomInt].author
 
+    })
+    .catch(err => {
+        let errorCont = document.getElementById('modal');
+        let messageCont = document.querySelector('#modal h2');
+        errorCont.className = "";
+        messageCont.textContent = `${err}! Your Internet Has Been Disconnected. Please try again Later.`
+        setTimeout(() => (errorCont.className = "hidden"), 5000)
     })
 }
 
@@ -45,7 +51,7 @@ function quoteSaver(){
         let errorCont = document.getElementById('modal');
         let messageCont = document.querySelector('#modal h2');
         errorCont.className = "";
-        messageCont.textContent = `${err}! Check  Local Database Server Connection and Try Again.`
+        messageCont.textContent = `${err}! Connection To Database Refused. Check your Local Database Settings Then Try Again.`
         setTimeout(() => (errorCont.className = "hidden"), 5000)
     })
 

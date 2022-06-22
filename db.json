@@ -44,6 +44,16 @@
       "Quote": "The reasonable man adapts himself to the world; the unreasonable man persists in trying to adapt the world to himself. Therefore, all progress depends on the unreasonable man.",
       "Author": "George Shaw",
       "id": 9
+    },
+    {
+      "Quote": "These days people seek knowledge, not wisdom. Knowledge is of the past, wisdom is of the future.",
+      "Author": "Vernon Cooper",
+      "id": 10
+    },
+    {
+      "Quote": "If you love someone, set them free. If they come back they're yours; if they don't they never were.",
+      "Author": "Richard Bach",
+      "id": 11
     }
   ]
 }
