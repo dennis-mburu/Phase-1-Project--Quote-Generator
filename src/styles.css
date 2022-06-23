@@ -1,5 +1,5 @@
 body {
-    background-color: cyan;
+    background-color: rgb(47, 0, 255);
     background-image: url(../assets/rainbow.gif);    
 }
 
@@ -50,7 +50,7 @@ body {
 #headerContainer{
     text-align:center;
     padding: 15px 25px;
-    color: #be1bc4;
+    color: #cc1ce4;
     /* background-color: #000000; */
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
