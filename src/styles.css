@@ -34,6 +34,10 @@ body {
     text-decoration: none;
 }
 
+#buttonsContainer > button:first-child{
+    margin-left: 10%;
+}
+
 
 #quoteContainer {
     text-align: center;
@@ -45,8 +49,9 @@ body {
 
 #headerContainer{
     text-align:center;
+    padding: 15px 25px;
     color: #be1bc4;
-    background-color: #000000;
+    /* background-color: #000000; */
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     margin-top: 0px;
@@ -77,4 +82,19 @@ body {
 
 #suggestionContainer {
     font-size: 20px;
+   
+}
+
+#suggestionContainer > h3{
+    padding-left: 10%;
+}
+
+
+#suggestionContainer > form{
+    margin-left: 10%;
+    padding-top: 5px;
+}
+
+#suggestionContainer>form>label,input{
+    margin-top: 2%;
 }
