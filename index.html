@@ -15,7 +15,7 @@
     </div>
     <div class='container' id="mainContainer">
         <div id="headerContainer">
-            <h1>An Inspirational Quote Generator To  Start Your Day Right</h1>
+            <h1>An Inspirational Quote Generator To Get Your Day Started Right</h1>
         </div>
         <div id="quoteContainer">
             <p id="quote"></p>
@@ -24,6 +24,16 @@
         <div id="buttonsContainer">
             <button id="qGenerator">Generate New Quote</button>
             <button id="qSaver">Save Quote</button>
+        </div>
+        <div id="suggestionContainer">
+            <h3 id="formHeader">
+                <em>Suggest any Other Kinds of Data You Would Like to be Auto-Generated</em>
+            </h3>
+            <form id="form" action="#" method="POST">
+                <label for="topic"><em>Recommended Topic: </em></label>
+                <input type="text" id="topic" name="topic" placeholder="insert new topic here">
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </div>
 </body>
