@@ -3,7 +3,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const genButton = document.getElementById('qGenerator');
     genButton.addEventListener('click', quoteGenerator);
     const saveButton = document.getElementById('qSaver');
-    saveButton.addEventListener('click', quoteSaver)
+    saveButton.addEventListener('click', quoteSaver);
+    const form = document.getElementById('form')
+    form.addEventListener('submit', event => {
+        event.preventDefault()
+        if (event.target.topic.value === ''){
+            alert('You did not type anything. Please type a valid topic and Re-Submitt Your Response')
+        }
+        else {
+        alert(`Response Received. ${event.target.topic.value} Auto-Generator Development Commencing Soon`)
+        }
+        form.reset()
+    })
 
 })
 
