@@ -62,7 +62,7 @@ function quoteSaver(){
         let errorCont = document.getElementById('modal');
         let messageCont = document.querySelector('#modal h2');
         errorCont.className = "";
-        messageCont.textContent = `${err}! Connection To Database Refused. Check your Local Database Settings Then Try Again.`
+        messageCont.textContent = `${err}! Connection To Database Refused. Check your Local Database Connection Settings Then Try Again.`
         setTimeout(() => (errorCont.className = "hidden"), 5000)
     })
 
